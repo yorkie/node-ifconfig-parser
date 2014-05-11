@@ -32,7 +32,7 @@ function parse(src) {
   var blocks = [];
   var temp = [];
   lines.forEach(function(item) {
-    if (item[0] !== 32 && temp.length > 0) {
+    if (['\t', ' '].indexOf(item[0]) === -1 && temp.length > 0) {
       blocks.push(temp);
       temp = [];
     }
