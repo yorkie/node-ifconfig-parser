@@ -1,0 +1,26 @@
+{
+  "name": "ifconfig-parser",
+  "version": "0.0.0",
+  "description": "ifconfig text parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yorkie/node-ifconfig-parser.git"
+  },
+  "keywords": [
+    "ifconfig",
+    "parser"
+  ],
+  "author": "Yorkie Neil <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yorkie/node-ifconfig-parser/issues"
+  },
+  "homepage": "https://github.com/yorkie/node-ifconfig-parser",
+  "dependencies": {
+    "buffer-extend": "0.0.1"
+  }
+}
